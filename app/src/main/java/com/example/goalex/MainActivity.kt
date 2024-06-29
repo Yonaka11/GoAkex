@@ -439,7 +439,7 @@ class MainActivity : ComponentActivity() {
                 spoken("welcome back please select user ", LocalContext.current)
         uButtonmaker(this@MainActivity,atler, modifier = Modifier)
             } else {
-                val file = File(context.filesDir, atler)
+                    val file = File(context.filesDir, atler)
 
                     spoken("welcom new user! Please add a user or topic. Ooor you can try our default profile.", LocalContext.current)
 
