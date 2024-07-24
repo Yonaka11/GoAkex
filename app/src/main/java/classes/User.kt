@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 
 data class User(
     var name: String,
-    var gsonHolder: String
+    var gsonHolder: MutableList<String>
 ) {
     fun recallUsers(Users: MutableList<User>):MutableList<String> {
          val uList = mutableListOf<String>()
